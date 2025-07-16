@@ -12,9 +12,11 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      # The default version of Wrangler in Github Actions is outdated.
+      # Therefore, installing the latest version of Wrangler before the deployment is required.
       - name: Install
         run: npm install
-        
+
       - name: Deploy
         uses: cloudflare/wrangler-action@v3
         with:
