@@ -1,0 +1,7 @@
+openapi: 3.1.1
+info:
+  title: toma09to-blog
+  description: |
+    This is a headless CMS API for toma09to.com.
+  version: 0.1.0
+paths: {}
